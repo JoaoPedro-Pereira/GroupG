@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                pageBg: '#18181b',
+                grayText: '#f3f4f6'
+              }
+            }
+          }
+        }
+      </script>
     <title>Blog Group 8</title>
 </head>
-<body>
-    <h1>Evolução das Redes de Computadores</h1>
+<body class="bg-pageBg w-5/6 text-grayText lg:max-w-screen-xl mx-auto">
+    <header class="md:w-3/4 py-8">
+        <h1 id="titulo" class="text-4xl font-bold pb-6">Evolução das Redes de Computadores</h1>
+    </header>
+    <div class="md:flex ">
+        <main class="md:w-3/4 relative">
+            <section id="arpa">
+                <h2 class="text-3xl font-bold">ARPA</h2>
+                <p class="py-6">
+                    A ARPANET, criada em 1969 pela ARPA (Advanced Research Projects Agency), foi a primeira rede de computadores a utilizar o protocolo TCP/IP, que se tornou a base da internet. Inicialmente, a ARPANET foi desenvolvida para permitir a comunicação entre instituições de pesquisa e universidades nos Estados Unidos.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium suscipit velit dignissimos a quidem consectetur quos, expedita libero voluptates maiores repellendus blanditiis perspiciatis. Amet aut laudantium id, quia repellendus libero unde similique accusamus! Nobis itaque ullam dolor consequuntur sequi, nisi id aperiam quia quos laborum eaque sint minima beatae molestiae eum perspiciatis tempore sed. Sapiente ipsum quis eligendi quaerat beatae reiciendis labore sunt amet ab illo assumenda blanditiis inventore quidem, nemo delectus sit illum rem deserunt quos, animi cum fugiat expedita minima. Aut adipisci doloremque, fugiat soluta laborum itaque saepe asperiores iste nihil eum et aliquam ipsa maiores rerum sed.
+                </p>
+            </section>
+            <section id="internet">
+                <h2 class="text-3xl font-bold">Internet</h2>
+                <p class="py-6">
+                    A internet surgiu em 1969, com a criação da ARPANET, e se tornou uma rede global de computadores interconectados. A internet revolucionou a forma como as pessoas se comunicam e acessam informações, permitindo o compartilhamento de dados em escala global.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quas nihil non sunt voluptatum soluta quos fugiat illo nostrum tempore doloremque, eum amet ab beatae perferendis voluptatem! Dolores dignissimos corporis quisquam esse, nam veniam fugiat? Quia sed doloribus eius dolore non enim veritatis corrupti cumque minima laudantium voluptates maiores temporibus repudiandae, totam suscipit nesciunt nisi amet fugit velit ex saepe quis vel veniam mollitia. Doloribus commodi nihil, consectetur, dolores ipsa iste dolor aspernatur repudiandae labore sunt modi sequi ut animi quisquam at. Laborum consequuntur, eligendi inventore repudiandae tempora placeat incidunt atque perspiciatis officiis nulla ut vel, pariatur sint dicta in, optio culpa? Reiciendis, cum iusto? Ad saepe iusto voluptatum obcaecati possimus doloribus velit, autem, animi nobis, rerum odit nam quasi aliquam! Nam at ratione illum reprehenderit alias quibusdam, vel eaque tenetur consectetur veniam deleniti saepe a repellendus, explicabo porro facere velit sed voluptas, hic voluptatem ex optio dicta quia. At, tempora sed! Vel beatae corrupti quo temporibus placeat consectetur dicta maiores voluptatem. Reprehenderit sapiente tenetur in omnis architecto obcaecati debitis dolorum fuga distinctio minus nesciunt eos labore placeat deleniti quae quos maiores sed, similique aliquam ullam impedit earum? Minima inventore adipisci dolor blanditiis natus, perferendis architecto accusantium consectetur itaque officia ipsam, neque quisquam veritatis vitae eum odio omnis doloribus aspernatur atque! Mollitia provident perspiciatis earum, facere amet deserunt obcaecati ex ducimus explicabo nam vel impedit aut esse repudiandae? Nostrum porro placeat sit nulla corrupti est in animi eos doloremque ipsam inventore minus explicabo delectus accusantium, necessitatibus ullam cum, neque enim.
+                </p>
+            </section>
+            <section id="tcp">
+                <h2 class="text-3xl font-bold">TCP</h2>
+                <p class="py-6">
+                    O protocolo de controle de transmissão (TCP) é um padrão de comunicação que permite que programas, aplicativos e dispositivos de computação intercambien mensagens em uma rede. Ele foi projetado para enviar pacotes pela internet e garantir a entrega bem-sucedida de dados e mensagens nas redes.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odio porro suscipit deserunt mollitia ad praesentium minima accusamus, doloribus consectetur iusto hic in tenetur cupiditate deleniti minus veniam obcaecati consequatur eaque, sequi aperiam dolores officiis incidunt. Quidem itaque laudantium iste adipisci voluptatibus, illum qui distinctio error atque consequuntur inventore, delectus, optio nulla quam tempora aliquid. Et culpa ex incidunt reprehenderit iusto perspiciatis ad laudantium vero pariatur. Provident illum dolores nostrum qui totam accusamus quibusdam error aut, tempore eius, vero voluptates culpa nisi id repudiandae aperiam magni. Ut consequuntur natus debitis tempora provident nobis, adipisci minima? Commodi nesciunt asperiores quod quaerat?
+                </p>
+            </section>
+            <section id="www">
+                <h2 class="text-3xl font-bold">World Wide Web</h2>
+                <p class="py-6">
+                    A World Wide Web, criada por Tim Berners-Lee em 1989, é um sistema de hipertexto que permite o acesso a informações por meio de links. A WWW tornou a internet mais acessível e fácil de usar, possibilitando o surgimento de serviços como e-mail, redes sociais e comércio eletrônico.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odio porro suscipit deserunt mollitia ad praesentium minima accusamus, doloribus consectetur iusto hic in tenetur cupiditate deleniti minus veniam obcaecati consequatur eaque, sequi aperiam dolores officiis incidunt. Quidem itaque laudantium iste adipisci voluptatibus, illum qui distinctio error atque consequuntur inventore, delectus, optio nulla quam tempora aliquid. Et culpa ex incidunt reprehenderit iusto perspiciatis ad laudantium vero pariatur. Provident illum dolores nostrum qui totam accusamus quibusdam error aut, tempore eius, vero voluptates culpa nisi id repudiandae aperiam magni. Ut consequuntur natus debitis tempora provident nobis, adipisci minima? Commodi nesciunt asperiores quod quaerat?
+                </p>
+            </section>
+            <section id="http">
+                <h2 class="text-3xl font-bold">HTTP</h2>
+                <p class="py-6">
+                    O Protocolo de Transferência de Hipertexto (HTTP) é a base da internet e é usado para carregar páginas web usando links de hipertexto. O HTTP é um protocolo da camada de aplicação desenvolvido para transferir informações entre dispositivos em rede e é executado no topo de outras camadas da pilha de protocolos de rede
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odio porro suscipit deserunt mollitia ad praesentium minima accusamus, doloribus consectetur iusto hic in tenetur cupiditate deleniti minus veniam obcaecati consequatur eaque, sequi aperiam dolores officiis incidunt. Quidem itaque laudantium iste adipisci voluptatibus, illum qui distinctio error atque consequuntur inventore, delectus, optio nulla quam tempora aliquid. Et culpa ex incidunt reprehenderit iusto perspiciatis ad laudantium vero pariatur. Provident illum dolores nostrum qui totam accusamus quibusdam error aut, tempore eius, vero voluptates culpa nisi id repudiandae aperiam magni. Ut consequuntur natus debitis tempora provident nobis, adipisci minima? Commodi nesciunt asperiores quod quaerat?
+                </p>
+            </section>
+            <section id="html">
+                <h2 class="text-3xl font-bold">HTML</h2>
+                <p class="py-6">
+                    Forma que páginas web são estruturadas e formatadas, sigla para (HyperText Markup Language)
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odio porro suscipit deserunt mollitia ad praesentium minima accusamus, doloribus consectetur iusto hic in tenetur cupiditate deleniti minus veniam obcaecati consequatur eaque, sequi aperiam dolores officiis incidunt. Quidem itaque laudantium iste adipisci voluptatibus, illum qui distinctio error atque consequuntur inventore, delectus, optio nulla quam tempora aliquid. Et culpa ex incidunt reprehenderit iusto perspiciatis ad laudantium vero pariatur. Provident illum dolores nostrum qui totam accusamus quibusdam error aut, tempore eius, vero voluptates culpa nisi id repudiandae aperiam magni. Ut consequuntur natus debitis tempora provident nobis, adipisci minima? Commodi nesciunt asperiores quod quaerat?
+                </p>
+            </section>
+        </main>
+        <aside class="hidden outline outline-1 rounded px-10 py-6 fixed top-11 md:block md:right-6 md:w-44 lg:right-8 lg:w-60 xl:right-12 2xl:right-32">
+            <nav>
+                <ol class="list-decimal">
+                    <li><a href="#titulo" class="hover:underline">Evolução das Redes de Computadores</a></li>
+                    <li><a href="#arpa" class="hover:underline">ARPA</a></li>
+                    <li><a href="#internet" class="hover:underline">Internet</a></li>
+                    <li><a href="#tcp" class="hover:underline">TCP</a></li>
+                    <li><a href="#www" class="hover:underline">World Wide Web</a></li>
+                    <li><a href="#http" class="hover:underline">HTTP</a></li>
+                    <li><a href="#html" class="hover:underline">HTML</a></li>
+                </ol>
+            </nav>
+        </aside>
+    </div>
 </body>
+
 </html>
